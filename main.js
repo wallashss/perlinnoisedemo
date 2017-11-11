@@ -25,7 +25,7 @@ function init()
     let updateButton = document.getElementById("update-button");
     updateButton.addEventListener("click", ()=>
     {
-        // updateParameters();
+        updateParameters();
         update();
     });
 
