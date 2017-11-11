@@ -1,0 +1,42 @@
+
+#main
+{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	left: 0;
+	top: 0;
+	background: #666;
+}
+
+#canvas
+{
+	width: 500px;
+	height: 500px;
+	position: absolute;
+	left: calc(50% - 250px);
+	top: calc(50% - 250px);
+	border: solid 1px black;
+}
+#view_controller
+{
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	background: #333;
+	box-sizing: border-box;
+	padding: 10px;
+	color: #DDD;
+	border-radius: 2px;
+}
+
+#view_controller span
+{
+	display: block;
+	margin: 5px;
+}
+
+#update-button
+{
+	width: 100%;
+}
