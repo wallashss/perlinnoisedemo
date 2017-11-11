@@ -81,8 +81,8 @@ function PerlinNoise()
                 for(let k = 0; k < octavesParams.length; k++)
                 {    
                     let octave = octavesParams[k];
-                    v += getOctave((parseFloat(i) + seed.offsetx) * seed.scalex, 
-                                    (parseFloat(j) + seed.offsety) * seed.scaley, 
+                    v += getOctave((parseFloat(i) + seed.offsety) * seed.scalex, 
+                                    (parseFloat(j) + seed.offsetx) * seed.scaley, 
                                     octave.frequency, octave.amplitude);
                 }
                 allValues[i*h+j] = v;
